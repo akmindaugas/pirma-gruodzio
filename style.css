@@ -31,3 +31,24 @@ hr{
     border: 2px solid red;
     padding: 50px 50px 50px 50px;
 }
+button, input[type="submit"]{
+    background-color: blue;
+    border-radius: 20px;
+    color: aliceblue;
+    width: 100px;
+    line-height: 3em;
+    padding: 10px auto;
+    cursor: pointer;
+}
+button:hover,
+input[type="submit"]:hover{
+    background-color: transparent;
+    font-weight: bold;
+    color: blue;
+}
+
+button:active,
+input[type="submit"]:active{
+    color: blue;
+    background-color: red;
+}
