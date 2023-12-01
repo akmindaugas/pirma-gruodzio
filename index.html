@@ -7,12 +7,32 @@
     <title>forms</title>
 </head>
 <body>
-<form action="">
+<div class="form-control">
+ <label for="drop">drop down menu</label>
+<select name="miestai" id="drop">
+  
+<option value="kaunas">pirmas</option>
+<option value="vln">antras</option>
+<option value="pnvz">trecias</option>
+<option value="sliaulia">ketvirtas</option>
+<option value="kelme">penktas</option>
+
+</select>
+
+></div>
+
+
+
+<form action="./index1.html">
 
     <div class="form-control">
 
         <label for="form_1">ivesk texta:</label>
-         <input type="text"/ name=""  id="form_1" value="" minlength="3" maxlength="20" required>
+         <input type="text" name=""  id="form_1" value="" minlength="3" maxlength="20" required>
+<br>
+         <label for="asa">suvesk pikta zinute cia:</label>
+         <textarea name="zinute" id="asa" cols="100" rows="15">Labas</textarea>
+         <br>
 
        
         <label for="button_1">paspausk cia:</label>
@@ -32,15 +52,15 @@
         <label for="passw">type your password here:</label>
 <br>
         <input type="checkbox">
-br
+<br>
         <input type="color" name="name_col" id="col">
         <label for="col">spalva</label>
-br
+<br>
         <input type="email" value="@gmail.com" id="mail" required>
 
         <input type="submit" value="siusk" id="inputo">
         <label for="inputo">cia labelis, kurio nereikia</label>
-br
+<br>
         <button type="submit">siusk</button>
 <br>
 
@@ -55,31 +75,31 @@ br
 <fieldset>
     <legend>checkbox elementu legenda</legend>
 
-    <input type="checkbox" name="" id="1">
+    <input type="checkbox" name="" id="1"  value="3" checked>
         <label for="1">checkboxo labelis1</label>
         <br>
-        <input type="checkbox" name="" id="12">
+        <input type="checkbox" name="" id="12" value="31" checked>
         <label for="12">checkboxo labelis12</label>
         <br>
-        <input type="checkbox" name="" id="13">
+        <input type="checkbox" name="" id="13" value="3111">
         <label for="13">checkboxo labelis13</label>
         <br>
-        <input type="checkbox" name="" id="14">
+        <input type="checkbox" name="" id="14" value="31111">
         <label for="14">checkboxo labelis14</label>
 </fieldset>
   
 <fieldset>
     <legend>antras divas</legend>
-        <input type="checkbox" name="name" id="1">
+        <input type="checkbox" name="name" id="1"  value="5">
         <label for="1">checkboxo labelis1</label>
         <br>
-        <input type="checkbox" name="name" id="12">
+        <input type="checkbox" name="name" id="12"  value="5">
         <label for="12">checkboxo labelis12</label>
         <br>
-        <input type="checkbox" name="name" id="13">
+        <input type="checkbox" name="name" id="13"  value="5">
         <label for="13">checkboxo labelis13</label>
         <br>
-        <input type="checkbox" name="name" id="14">
+        <input type="checkbox" name="name" id="14"  value="5">
         <label for="14">checkboxo labelis14</label>
         <br>
 </fieldset>
@@ -97,7 +117,7 @@ br
         <legend>radio boxu grupe</legend>
 
 
-        <input type="radio" name=" "  id="1">
+        <input type="radio" name=" "  id="1" checked>
     <label for="1">pirmas radio</label>
     <br>
     <input type="radio" name=" "  id="2">
@@ -119,18 +139,7 @@ br
 
 </form>
 
-
- 
-
-
-
 </form>
-
-
-
-
-
-
 
 
 
